@@ -61,9 +61,7 @@ body {
   background-color: var(--bg-color);
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: var(--fw-bold);
   letter-spacing: -0.04rem;
   color: var(--text-color-primary);
@@ -71,15 +69,15 @@ h3 {
 }
 
 h1 {
-  font-weight: var(--fs-2xl);
+  font-size: var(--fs-2xl);
 }
 
 h2 {
-  font-weight: var(--fs-xl);
+  font-size: var(--fs-xl);
 }
 
 h3 {
-  font-weight: var(--fs-lg);
+  font-size: var(--fs-lg);
 }
 
 a {
@@ -99,6 +97,10 @@ a:hover {
 img {
   width: 100%;
   display: inline-block;
+}
+
+.icon {
+  width: 1.5rem;
 }
 
 ul[role="list"] {
